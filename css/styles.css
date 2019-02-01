@@ -1,0 +1,64 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1{
+    color: #a76a04;
+    position: relative;
+    top: -65px;
+    left: 65px;
+    font-size: 25px;
+}
+
+svg{
+    position: relative;
+    left: 15px;
+    height: 75px;
+    width: 40px;
+}
+
+#cartImg{
+    background-color: #f5a623;
+    margin: -10px;
+    width: 100%;
+    height: 80px;
+    padding: -10px;
+}
+
+#shoppingCart{
+    text-align: left;
+}
+
+#container2{
+    margin: 5%;
+   
+}
+
+img{
+    float: left;
+    padding: 15px;
+    overflow: auto;
+    content: "";
+    clear: both;
+    display: table;
+    width: 8%
+}
+
+.coolStuff{
+    font-weight: bold;
+    border-top: 1px solid grey;
+    padding: 35px;
+    
+}
+
+.purpose{
+    display: none;
+}
+
+.payUp{
+    float: right;
+    content: "";
+    clear: both;
+    display: table;
+    width: 8%
+}
