@@ -67,5 +67,16 @@ for(var i=0; i<shopCart.length; i++){
     newPrice.className = 'payUp';
     newPrice.innerHTML = '$' + shopCart[i].price;
     document.getElementById('container2').appendChild(newPrice);
+}
 
+
+//Doesn't work... 
+finger.addEventListener('click', showFinger);
+
+function showFinger(){
+    if(coolStuff.style.display === 'block'){
+        coolStuff.style.display = 'none';
+    }else{
+        coolStuff.style.display = 'block';
+    }
 }
